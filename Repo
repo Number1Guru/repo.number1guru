@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.number1guru" name="[COLOR red][B]#[/B][/COLOR]1[COLOR blue][B] Guru[/B][/COLOR][COLOR yellow] Repository[/COLOR]" version="2018.08.16" provider-name="Number1Guru">
+	<requires>
+		<import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.repository" name="Number1Guru Repo">
+		<dir>
+			<info compressed="false">http://number1guru.com/addons/addons.xml</info>
+			<checksum>http://number1guru.com/addons/addons.xml.md5</checksum>
+			<datadir zip="true">http://number1guru.com/addons/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">http://number1guru.com/repo/kodi18/addons.xml</info>
+			<checksum>http://number1guru.com/repo/kodi18/addons.xml.md5</checksum>
+			<datadir zip="true">http://number1guru.com/repo/kodi18/</datadir>
+		</dir>		
+		<dir>
+			<info compressed="false">http://number1guru.com/addons/video/addons.xml</info>
+			<checksum>http://number1guru.com/addons/video/addons.xml.md5</checksum>
+			<datadir zip="true">http://number1guru.com/addons/video/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">http://number1guru.com/addons/modules/addons.xml</info>
+			<checksum>http://number1guru.com/addons/modules/addons.xml.md5</checksum>
+			<datadir zip="true">http://number1guru.com/addons/modules/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">http://number1guru.com/addons/music/addons.xml</info>
+			<checksum>http://number1guru.com/addons/metadata/addons.xml.md5</checksum>
+			<datadir zip="true">http://number1guru.com/addons/music/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">http://number1guru.com/addons/metadata/addons.xml</info>
+			<checksum>http://number1guru.com/addons/metadata/addons.xml.md5</checksum>
+			<datadir zip="true">http://number1guru.com/addons/metadata/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">http://number1guru.com/addons/artwork/addons.xml</info>
+			<checksum>http://number1guru.com/addons/artwork/addons.xml.md5</checksum>
+			<datadir zip="true">http://number1guru.com/addons/artwork/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">http://number1guru.com/Kodi18/addons.xml</info>
+			<checksum>http://number1guru.com/Kodi18/addons.xml.md5</checksum>
+			<datadir zip="true">http://number1guru.com/Kodi18/</datadir>
+		</dir>
+		<dir>
+			<info compressed="true">https://github.com/mikesilvo164/repo.aeon.nox.silvo/raw/master/krypton/addons.xml</info>
+			<checksum>https://github.com/mikesilvo164/repo.aeon.nox.silvo/raw/master/krypton/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/mikesilvo164/repo.aeon.nox.silvo/raw/master/krypton</datadir>
+		</dir>
+</extension>
+	<extension point="xbmc.addon.metadata">
+			<summary lang="en"></summary>
+			<description lang="en">The Official Repo for #1 Guru</description>
+			<genre>All</genre>
+	</extension>
+</addon>
