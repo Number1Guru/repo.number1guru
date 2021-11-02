@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.number1guru" name="[COLOR red][B]#[/B][/COLOR]1[COLOR blue][B] Guru[/B][/COLOR][COLOR yellow] Repository[/COLOR]" version="11.01.2021" provider-name="Number1Guru">
+    <extension point="xbmc.addon.repository" name="Number1Guru Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Number1Guru/repo.number1guru/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Number1Guru/repo.number1guru/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Number1Guru/repo.number1guru/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>repository.number1guru</summary>
+        <description>Number1Guru Repo for Builds only</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
